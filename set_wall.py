@@ -1,14 +1,14 @@
-import ctypes
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 import time
-import random
+import ctypes
 import urllib
 import shutil
+import random
 import requests
-from datetime import datetime
-from selenium.webdriver.support.wait import WebDriverWait
 import os, os.path
+from datetime import datetime
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.wait import WebDriverWait
 
 def scroll_all(driver , scrolls = 1000):
 
